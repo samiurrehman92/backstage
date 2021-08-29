@@ -1,5 +1,16 @@
 # @backstage/plugin-catalog
 
+## 0.6.14
+
+### Patch Changes
+
+- 3ed78fca3: Added the ability to switch entity kind on the catalog index page. This is a non-breaking change, but if you created a custom `CatalogPage` and wish to use this feature, make the modifications shown on [#6895](https://github.com/backstage/backstage/pull/6895).
+- Updated dependencies
+  - @backstage/plugin-catalog-react@0.4.5
+  - @backstage/core-components@0.4.0
+  - @backstage/catalog-model@0.9.1
+  - @backstage/integration-react@0.1.8
+
 ## 0.6.13
 
 ### Patch Changes
